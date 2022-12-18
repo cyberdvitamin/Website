@@ -1,0 +1,30 @@
+text_hover::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  text_hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  text_hover::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #6290C8;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  text_hover {
+    position: relative;
+  }
+
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }

@@ -1,6 +1,8 @@
 <html>
 <head>
-<title>My Website</title>
+  <link rel="stylesheet" href="hover_effect.css">
+  <link rel="stylesheet" href="buttons.css">
+<title>Homepage</title>
 <link rel="icon" href="Photos/favicon_homepage.png" type="image/x-icon">
 <style>
       body {
@@ -11,11 +13,10 @@
       align {
         position: relative; left: 50px; top: 20px;
       }
-      img {
-        position: relative; left: 50px; top: 20px;
-      }
+
       h1 {
         text-align: center;
+        user-select: none;
       }
 
       .title {
@@ -29,16 +30,17 @@
 <h1 class="title"><font color="#FFFFFF">Homepage</font></h1>
 
 
-<align><font color="#FFFF99">This is a preview for cute and funny pictures to make you check them out!<br></font></align>
-
-<a href="pictures.html"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cute picture of five cats looking around a field."/><br></a>
-
-<align><font color="#FFFF99">You can contact me at <a href="mailto:cutudestroyer@gmail.com">cutudestroyer@gmail.com </a></font></align>
+<align><font color="#FFFF99"><text_hover>This is a preview for cute and funny pictures to make you check them out!<br></text_hover></font></align>
 
 
-<button style="position: absolute; left: 50px; top: 50px;"onclick="window.location.href='homepage.html'">Go to homepage</button>
-<button style="position: absolute; left: 170px; top: 50px;"onclick="window.location.href='cv.html'">CV</button>
-<button style="position: absolute; left: 210px; top: 50px;"onclick="window.location.href='pictures.html'">Cute and funny pictures</button>
+<a href="pictures.html" style="position: relative; left: 50px; top: 20px;"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cute picture of five cats looking around a field." /><br></a>
+
+<button style="position: absolute; left: 50px; top: 50px;"onclick="window.location.href='homepage.html'">Homepage</button>
+<button style="position: absolute; left: 140px; top: 50px;"onclick="window.location.href='cv.html'">CV</button>
+<button style="position: absolute; left: 185px; top: 50px;"onclick="window.location.href='pictures.html'">Cute and funny pictures</button>
+<button style="position: absolute; left: 350px; top: 50px;"onclick="window.location.href='contact.html'">Contact</button>
+
+
 
 
 </body>

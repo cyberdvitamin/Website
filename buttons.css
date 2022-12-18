@@ -1,0 +1,29 @@
+.container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    background: -webkit-linear-gradient(left, #9d4edd, #90caf9);
+    background: -moz-linear-gradient(left, #90caf9, #24c8e5);
+    background: linear-gradient(left, #90caf9, #30e8de);
+    
+  }
+  
+  a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 15px 4px;
+    position: relative;
+    -webkit-transition-duration: 0.4s; 
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  a:hover {
+    color: #fff;
+    opacity: 0.9;
+    text-shadow: 2px 3px 5px #ffb700;
+    top: -3px;
+  }
